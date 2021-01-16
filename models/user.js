@@ -5,12 +5,14 @@ const Schema = mongoose.Schema;
 // el modelo User tiene que tener un username y un password, que tienen que ser strings. También deberán tener un timestamps.
 
 const userSchema = new Schema({
-    username: String,
+    name: String,
+    firstSurname: String,
+    secondSurname: String,
     password: String,
-    age: String,
-    gender: { type: String, enum: ["Male", "Female"] },
     email: String,
-    image: String,
+    direction: String,
+    postalCode: Number,
+    card: Number,
 }, 
 {
     timestamps: {
