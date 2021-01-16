@@ -1,8 +1,8 @@
-GameAddicts
+Brown Bros. Street Food
 
 Description
 
-This is an App 
+This is an E-commerce
 
 
 User Stories
@@ -15,13 +15,13 @@ User Stories
 
 · Logout: As a user I can logout from the platform so no one else can use it.
 
-· Edit profile: As a user I can edit my user and boat profile.
+
 
 
 
 Backlog
 
-· Generate internal chat between users.
+· Place for anouncements
 
 
 
@@ -77,20 +77,20 @@ MODEL USER
 
 {
 Name: String,
-gender: {type: String, enum: ["Male", "Female"]}, 
+firstSurname: String,
+secondSurname: String,
+password: String,
 email: String,
-image: String
+direction: String,
+postalCode: Number,
+card: Number,
 }
 
-MODEL GAME :
+MODEL CARTA:
 
 {
 Title: String,
-year: String,
-type: {type: String, enum: ["boardgame", "videogame"]}, 
-platform: String,
-owner: {type: Schema.Types.ObjectId, ref: 'User'},
-image: String
+description: String,
 }
 
 
@@ -123,7 +123,7 @@ Links
 
 Git
 
-· Client: https://github.com/Lexirem/GameAddictsClient
+· Client: https://github.com/Lexirem/BrownBrosClient
 
-· Server: https://github.com/Lexirem/GameAddictsServer
+· Server: https://github.com/Lexirem/BrownBrosServer
 
