@@ -21,7 +21,7 @@ User Stories
 
 Backlog
 
-· Place for anouncements
+· Tracking del pedido
 
 
 
@@ -76,7 +76,7 @@ Models
 MODEL USER 
 
 {
-Name: String,
+name: String,
 firstSurname: String,
 secondSurname: String,
 password: String,
@@ -89,8 +89,9 @@ card: Number,
 MODEL CARTA:
 
 {
-Title: String,
+title: String,
 description: String,
+extras: [ String ]
 }
 
 
