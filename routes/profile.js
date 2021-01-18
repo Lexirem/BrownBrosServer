@@ -4,11 +4,10 @@ const User = require("../models/user");
 const mongoose = require("mongoose");
 const multer = require('multer');
 
-// RUTA PARA OBTENER LAS OFERTAS QUE HAYA CREADO EL USUARIO
+// RUTA PARA OBTENER EL USUARIO
 
 router.get("/:id", async (req, res, next) => {
  
-  // preguntar com relacionem la oferta amb l'usuari que l'ha creat
   let myUserFounded = await User.findById(req.params.id);
   try {
     res.json(myUserFounded);
@@ -45,5 +44,9 @@ router.put("/:id/editUser", (req, res, next) => {
       console.log(error);
     });
 });
+
+// RUTA PARA PODER ELIMINAR EL USUARIO
+
+
 
 module.exports = router;
