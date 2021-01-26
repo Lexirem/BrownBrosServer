@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const cartaSchema = new Schema({
     title: String,
     description: String,
+    typefood: String,
     extras: [String]
 },
 {
