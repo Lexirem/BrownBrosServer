@@ -5,6 +5,7 @@ const cartaSchema = new Schema({
     title: String,
     description: String,
     typefood: String,
+    price: String,
     extras: [String]
 },
 {

@@ -1,0 +1,293 @@
+[ {
+    "title": "VEDELLA",
+    "description": "Vedella amb enciam, tomaquet, cogombres",
+    "typefood": "Burgers",
+    "price": "3,75€"
+  },{ 
+    "title": "B.I.G PAPA",
+    "description": "La teva burger de vedella x3",
+    "typefood": "Burgers",
+    "price": "5,50€"
+  },{
+    "title": "POLLASTRE",
+    "description": "Crispy, amb enciam, tomaqut, cogombres",
+    "typefood": "Burgers",
+    "price": "3,75€"
+  },{
+    "title": "B.I.G POLLO",
+    "description": "La teva burger de pollastre x3",
+    "typefood": "Burgers",
+    "price": "5,50€"  
+  },{
+    "title": "VEGGIE BURGER",
+    "description": "Pullpork vega de fruita d'Asia amb enciam, tomaquet, cogombres",
+    "typefood": "Burgers",
+    "price": ""  
+  },{
+    "title":"B.I.G MAMA",
+    "description":"La teva burger veggie x3",
+    "typefood": "Burgers",
+    "price": "5,50€"  
+  },{
+    "title": "CRUSTY POLLO",
+    "description": "Crispy, pa de blat i espinacs amb enciam, tomaquet, cogombres",
+    "typefood": "Wraps",
+    "price": "4,20€"
+  },{
+    "title": "QUESO VEGAN AHUMADO",
+    "description": "Pa de blat i esponacs amb enciam, tomaquet, cogombres",
+    "typefood": "Wraps",
+    "price": "4,20€"
+  },{
+    "title": "FALAFEL",
+    "description": "Pa de blat i esponacs amb enciam, tomaquet, cogombres",
+    "typefood": "Wraps",
+    "price": "4,20€"
+  },{
+    "title": "TORTILLA DE PATATAS Y PIMIENTO VERDE",
+    "description": "En pa de vidre i tomaquet",
+    "typefood": "Bocadillos",
+    "price": "5,50€"
+  },{
+    "title": "BACO-CHEDDAR",
+    "description": "En pa de vidre i tomaquet",
+    "typefood": "Bocadillos",
+    "price": "4,20€"
+  },{
+    "title": "CALAMARES ANDALUZA",
+    "description": "En pa de vidre i tomaquet",
+    "typefood": "Bocadillos",
+    "price": "4,80€"
+  },{
+    "title": "VEGAN CAPRESE",
+    "description": "Amb formatge vega fumat, amb pa de vidre, tomaquet",
+    "typefood": "Bocadillos",
+    "price": ""
+  },{
+    "title": "JAMON IBERICO",
+    "description": "En pa de vidre i tomaquet",
+    "typefood": "Bocadillos",
+    "price": "4,50€"
+  },{
+    "title": "ALBONDIGAS DE LA YAYA",
+    "description": "Carn de vedella amb salsa en pa de vidre, tomaquet",
+    "typefood": "Bocadillos",
+    "price": "4,80€"
+  },{
+    "title": "ALBONDIGAS VEGAN",
+    "description": "Croqueta de cigro amb llet de coco, soja i llima en pa de vidre, tomaquet",
+    "typefood": "Bocadillos",
+    "price": "4,80€"
+  },{
+    "title": "ESTOFADO DE CERDO",
+    "description": "En pa de vidre i tomaquet",
+    "typefood": "Bocadillos",
+    "price": "5,50€"
+  },{
+    "title": "BARCELONA DRAGONS",
+    "description": "Butifarra amb escalivada, enciam, salsa romesco i allioli de pollastre",
+    "typefood": "Butifarra",
+    "price": "4,80€"
+  },{
+    "title": "VATOS LOCOS",
+    "description": "Butifarra amb blat, enciam, salsa d'alvocat i llima, salsa jalapeño i cibulet",
+    "typefood": "Butifarra",
+    "price": ""
+  },{
+    "title": "SR. MIYAGI",
+    "description": "Butifarra amb bolets, enciam, salsa soja/wasabi i cibulet amb ceba crispy",
+    "typefood": "Butifarra",
+    "price": "4,80€"
+  },{
+    "title": "BROOKLIN ZOO",
+    "description": "Butifarra nature, enciam, ceba crispy, salsa BBQ Jack i crema de cacauet",
+    "typefood": "Butifarra",
+    "price": "5,00€"
+  },{
+    "title": "CHILI CON CARNE",
+    "description": "Carn picant amb llima, enciam i ceba",
+    "typefood": "Tacos",
+    "price": "2,20€"
+  },{
+    "title": "TINGA DE POLLO",
+    "description": "Pollastre estofat amb llima, enciam i ceba",
+    "typefood": "Tacos",
+    "price": "2,20€"
+  },{
+    "title": "BAJA CALIFORNIA",
+    "description": "Calamars arrebossats amb llima, enciam i ceba",
+    "typefood": "Tacos",
+    "price": "2,20€"
+  },{
+    "title": "COCHINITA VEGGIE",
+    "description": "Pullpork Vega de fruita d'Asia amb salsa achiote, llima, enciam i ceba",
+    "typefood": "Tacos",
+    "price": "2,20€"
+  },{
+    "title": "PATATAS FRITAS",
+    "typefood": "Fritos",
+    "price": "1,50€"  
+  },{
+    "title": "DOBLE FRITAS",
+    "typefood": "Fritos",
+    "price": "2,90€"
+  },{
+    "title": "PATATAS DELUXE",
+    "typefood": "Fritos",
+    "price": "3,00€"
+  },{
+    "title": "ALITAS FRITAS",
+    "description": "5 uni. / 10 uni. / 15 uni.",
+    "typefood": "Fritos",
+    "price": "3,50€ / 6,50€ / 9,00€"
+  },{
+    "title": "DONUTS",
+    "typefood": "Dulce",
+    "price": "2,00€"
+  },{
+    "title": "XURROS AMB XOCOLATA",
+    "description": "5 uni.",
+    "typefood": "Dulce",
+    "price": "3,50€"
+  },{
+    "title": "HELADOS",
+    "description": "Vainilla de Jamaica / Vainilla amb Xocolata / Vainilla amb Fruits del bosc",
+    "typefood": "Dulce",
+    "price": "cucurutxo = 2,20€ / got = 4,20€"
+  },{
+    "title": "GRANIZADO CASERO DEL DIA",
+    "typefood": "Dulce",
+    "price": "petit = 1,50€ / got = 2,50€"
+  },{
+    "title": "Coca-cola",
+    "typefood": "Bebidas",
+    "price": "2,20€"
+  },{
+    "title": "Coca-cola cero",
+    "typefood": "Bebidas",
+    "price": "2,20€"
+  },{
+    "title": "Coca-cola light",
+    "typefood": "Bebidas",
+    "price": "2,20€"
+  },{
+    "title": "Fanta Naranja",
+    "typefood": "Bebidas",
+    "price": "2,20€"
+  },{
+    "title": "Fanta Limon",
+    "typefood": "Bebidas",
+    "price": "2,20€"
+  },{
+    "title": "Sprite",
+    "typefood": "Bebidas",
+    "price": "2,20€"
+  },{
+    "title": "Agua",
+    "typefood": "Bebidas",
+    "price": "1,20€"
+  },{
+    "title": "Ladron de Manzanas",
+    "typefood": "Bebidas",
+    "price": "3,20€"
+  },{
+    "title": "Moritz",
+    "typefood": "Bebidas",
+    "price": "3,20€"
+  },{
+    "title": "Estrella Galicia",
+    "typefood": "Bebidas",
+    "price": "3,20€"
+  },{
+    "title": "Voll Damm",
+    "typefood": "Bebidas",
+    "price": "3,20€"
+  },{
+    "title": "Expreso",
+    "typefood": "Desayunos",
+    "price": "1,20€"
+  },{
+    "title": "Cortado",
+    "typefood": "Desayunos",
+    "price": "1,30€"
+  },{
+    "title": "Con Leche",
+    "typefood": "Desayunos",
+    "price": "1,40€"
+  },{
+    "title": "Con Nata muntada",
+    "typefood": "Desayunos",
+    "price": "1,80€"
+  },{
+    "title": "Americano",
+    "typefood": "Desayunos",
+    "price": "1,40€"
+  },{
+    "title": "Xocolata",
+    "typefood": "Desayunos",
+    "price": "1,40€"
+  },{
+    "title": "Xocolata amb Nata muntada",
+    "typefood": "Desayunos",
+    "price": "1,80€"
+  },{
+    "title": "Suc de Taronja",
+    "typefood": "Desayunos",
+    "price": "3,00€"
+  },{
+    "title": "Ketchup",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Salsa Brava",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Romesco",
+    "typefood":"Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Crema Cacahuete",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "All i oli de pollo braseado",
+    "typefood":"Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Mosta-nesa",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Mayo. Thay",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Mayo. Aguacate, eneldo y lima",
+    "typefood": "Salsas 100% caseras",
+    "price":"0,30€"
+  },{
+    "title": "Mayo. Jalapeño",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "Mayo. Soja y wasabi",
+    "typefood": "Salsas 100% caseras",
+    "price": "0,30€"
+  },{
+    "title": "BBQ Jack Daniels",
+    "typefood": "Golden Salsas",
+    "price": "0,60€"
+  },{
+    "title": "Queso Idiazabal y Voll Damm",
+    "typefood": "Golden Salsas",
+    "price": "0,60€"
+  },{
+    "title": "Mayo. Pesto Genovese",
+    "typefood": "Golden Salsas",
+    "price": "0,60€"
+  },{
+    "title": "BBQ Balinesa",
+    "typefood": "Golden Salsas",
+    "price": "0,60€"
+  }]
