@@ -21,8 +21,7 @@ router.post("/signup",
   validationLoggin(),
   async (req, res, next) => {
    
-    const { email, password } = req.body;
-
+    const { name, surname, email, password, direction, postalCode } = req.body;
     try {
       // chequea si el email ya existe en la BD
       const emailExists = await User.findOne({email}, "email");
@@ -35,8 +34,7 @@ router.post("/signup",
         const salt = bcrypt.genSaltSync(saltRounds);
         const hashPass = bcrypt.hashSync(password, salt);
         
-		const newUser = await User.create({ email, password: hashPass})
-        
+		const newUser = await User.create({ name, surname, email, postalCode, direction, password: hashPass})
         // luego asignamos el nuevo documento user a req.session.currentUser y luego enviamos la respuesta en json
         req.session.currentUser = newUser;
         res

@@ -16,18 +16,27 @@ router.get("/:id", async (req, res, next) => {
   }
 });
 
+router.post("/:id", async (req, res, next) => {
+  let myUser = await User.findById(req.params.id);
+  try{
+    res.json(myUser)
+
+  }catch (error){
+    console.log(error)
+  }
+});
+
 
 
 // RUTA PARA PODER EDITAR LA INFORMACION DEL USUARIO
 
-router.put("/:id/editUser", (req, res, next) => {
+router.put("/:id/edit", (req, res, next) => {
   console.log(req.body, "console log de reqbody")
   User.findByIdAndUpdate(
      req.params.id ,
     {
         name: req.params.name,
-        firstSurname: req.params.firstSurname,
-        secondSurname: req.params.secondSurname,
+        surname: req.params.surname,
         password: req.params.password,
         email: req.params.email,
         direction: req.params.direction,
@@ -47,6 +56,8 @@ router.put("/:id/editUser", (req, res, next) => {
 
 // RUTA PARA PODER ELIMINAR EL USUARIO
 
-
+router.delete("/:id/delete", (req, res, next)=>{
+  User.findByIdAndDelete(req.params.id)
+})
 
 module.exports = router;
