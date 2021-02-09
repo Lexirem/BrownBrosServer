@@ -54,10 +54,4 @@ router.put("/:id/edit", (req, res, next) => {
     });
 });
 
-// RUTA PARA PODER ELIMINAR EL USUARIO
-
-router.delete("/:id/delete", (req, res, next)=>{
-  User.findByIdAndDelete(req.params.id)
-})
-
 module.exports = router;
