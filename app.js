@@ -12,7 +12,7 @@ const cors = require("cors");
 
 const auth = require("./routes/auth");
 const profile = require("./routes/profile");
-
+const pedido = require("./routes/pedido");
 
 // MONGOOSE CONNECTION
 mongoose
@@ -68,6 +68,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // ROUTER MIDDLEWARE
 app.use("/auth", auth);
 app.use("/profile", profile);
+// app.use("/pedido", pedido);
 
 
 //ROUTE FOR SERVING REACT APP (index.html)

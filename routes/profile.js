@@ -31,7 +31,6 @@ router.post("/:id", async (req, res, next) => {
 // RUTA PARA PODER EDITAR LA INFORMACION DEL USUARIO
 
 router.put("/:id/edit", (req, res, next) => {
-  console.log(req.body, "console log de reqbody")
   User.findByIdAndUpdate(
      req.params.id ,
     {

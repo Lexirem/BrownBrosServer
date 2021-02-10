@@ -4,6 +4,7 @@ const createError = require("http-errors");
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
 const User = require("../models/user");
+const Carrito = require("../models/carrito");
 
 // HELPER FUNCTIONS
 const {
@@ -34,6 +35,16 @@ router.post(
         const hashPass = bcrypt.hashSync(password, salt);
         
 		    const newUser = await User.create({ name, surname, email, postalCode, direction, password: hashPass})
+        const newShoppingCart = await Carrito.create({
+          user: newUser._id,
+        });
+        const addShoppingCart = await User.findByIdAndUpdate(
+          newUser._id,
+          {
+            shoppingCart: newShoppingCart._id,
+          },
+          { new: true }
+        );
         // luego asignamos el nuevo documento user a req.session.currentUser y luego enviamos la respuesta en json
         req.session.currentUser = newUser;
         res
