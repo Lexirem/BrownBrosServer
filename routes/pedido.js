@@ -1,14 +1,13 @@
-const express = require ("express");
+const express = require("express");
 const router = express.Router();
-
 const User = require("../models/user");
 const Carta = require("../models/carta");
 const Carrito = require("../models/carrito");
 
 const {
-    isLoggedIn,
-    isNotLoggedIn,
-    validationLoggin,
+  isLoggedIn,
+  isNotLoggedIn,
+  validationLoggin,
 } = require("../helpers/middlewares");
 
 router.get("/carrito", isLoggedIn(), async (req, res, next) => {
@@ -22,8 +21,8 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
       console.log(error);
     }
   });
-
-
+  
+  
   router.post("/addproduct/:id", isLoggedIn(), async (req, res, next) => {
     try {
       const cartaId = req.params.id;
@@ -41,7 +40,7 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
       console.log("Error al añadir el producto");
     }
   });
-
+  
   router.post("/deleteproduct", isLoggedIn(), async (req, res, next) => {
     try {
       const { _id } = req.body;
@@ -61,7 +60,7 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
       console.log("Error al eliminar el producto");
     }
   });
-
+  
   router.post("/addquantity", isLoggedIn(), async (req, res, next) => {
     try {
       const _id = req.body._id;
@@ -81,3 +80,5 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
       console.log("Error to set the product");
     }
   });
+
+  module.exports = router;

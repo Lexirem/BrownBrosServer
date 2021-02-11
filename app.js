@@ -68,7 +68,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // ROUTER MIDDLEWARE
 app.use("/auth", auth);
 app.use("/profile", profile);
-// app.use("/pedido", pedido);
+app.use("/pedido", pedido);
 
 
 //ROUTE FOR SERVING REACT APP (index.html)

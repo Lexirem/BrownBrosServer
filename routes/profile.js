@@ -1,8 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const User = require("../models/user");
 const mongoose = require("mongoose");
 const multer = require('multer');
+
+const User = require("../models/user");
+
 
 // RUTA PARA OBTENER EL USUARIO
 
@@ -52,5 +54,6 @@ router.put("/:id/edit", (req, res, next) => {
       console.log(error);
     });
 });
+
 
 module.exports = router;
