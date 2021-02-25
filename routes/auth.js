@@ -41,7 +41,7 @@ router.post(
         const addShoppingCart = await User.findByIdAndUpdate(
           newUser._id,
           {
-            shoppingCart: newShoppingCart._id,
+            carrito: newShoppingCart._id,
           },
           { new: true }
         );

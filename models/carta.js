@@ -2,7 +2,6 @@ const mongoose = require ("mongoose");
 const Schema = mongoose.Schema;
 
 const cartaSchema = new Schema({
-    id: Number,
     title: String,
     description: String,
     typefood: String,

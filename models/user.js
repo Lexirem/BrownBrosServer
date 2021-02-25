@@ -9,6 +9,7 @@ const userSchema = new Schema({
     direction: String,
     postalCode: String,
     card: Number,
+    carrito: { type: Schema.Types.ObjectId, ref: "Carrito" }
 }, 
 {
     timestamps: {
