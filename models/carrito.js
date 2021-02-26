@@ -3,9 +3,9 @@ const Schema = mongoose.Schema;
 
 const carritoSchema = new Schema({
   user: { type: Schema.Types.ObjectId, ref: "User" },
-  productos: [
+  products: [
     {
-      carta: { type: Schema.Types.ObjectId, ref: "Carta" },
+      product: { type: Schema.Types.ObjectId, ref: "Carta" },
       quantity: { type: Number },
     },
   ],

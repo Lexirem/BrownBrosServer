@@ -14,7 +14,7 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
     try {
       const userId = req.session.currentUser._id;
       const cart = await Carrito.findOne({ user: userId }).populate(
-        "productos.carta"
+        "products.product"
       );
       res.status(200).json(cart);
     } catch (error) {
@@ -25,16 +25,16 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
   
   router.post("/addproduct/:id", isLoggedIn(), async (req, res, next) => {
     try {
-      const cartaId = req.params.id;
+      const productId = req.params.id;
       const userId = req.session.currentUser._id;
   
       const userShoppingCart = await Carrito.findOneAndUpdate(
         {
           user: userId,
         },
-        { $addToSet: { products: { carta: cartaId, quantity: 1 } } },
+        { $addToSet: { products: { product: productId, quantity: 1 } } },
         { new: true }
-      ).populate("products.carta");
+      ).populate("products.product");
       res.status(200).json(userShoppingCart);
     } catch (error) {
       console.log("Error al añadir el producto");
@@ -55,7 +55,7 @@ router.get("/carrito", isLoggedIn(), async (req, res, next) => {
           }
           res.status(200).json(cart);
         }
-      ).populate("products.carta");
+      ).populate("products.product");
     } catch (error) {
       console.log("Error al eliminar el producto");
     }
